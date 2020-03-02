@@ -175,7 +175,11 @@ min-height:200px;
               </tr>  
             
           {% endfor %}  
-      </table>  
+      </table>  <br><br>
+      <h3>Delete user :</h3>
+      <form action="/deleterecord" method="post" style="color:#e4ece5;">  
+        User id <input type="text" name="id">  
+        <input type="submit" value="Submit" style="color: #007000;">  
       <br><br>  
         
       <a href="/">Go back to home page</a>  
